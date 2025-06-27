@@ -44,6 +44,9 @@ The **Pump.fun Monad Smart Contract** brings the power of viral, one-click token
    - Parameters such as `liquidityMigrationFee`, the stored Uniswap router address, and the WETH handle are prepared for the migration feature.
    - A future release can integrate the `LiquiditySwapped` event to track the actual migration into Uniswap V2 once thresholds are met.
    
+## 🧪 Unit Test Result
+![alt text](screenshot.png)
+
 ## 📞 Contact Info
 
 ### Telegram: [enlomy](https://t.me/enlomy)
