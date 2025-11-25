@@ -1,6 +1,6 @@
-# 💊 PumpFun Monad Smart Contract
+# 💊 NadFun Monad Smart Contract
 
-The **Pump.fun Monad Smart Contract** brings the power of viral, one-click token creation to the **EVM-Compatible blockchain**, mirroring the simplicity and virality of the original **Pump.fun** on Solana. This version is built natively for **Monad's EVM-compatible testnet**, with full support for **Uniswap liquidity migration**, enabling instant tradability in the broader Ethereum ecosystem.
+The **Nad.fun Monad Smart Contract** brings the power of viral, one-click token creation to the **EVM-Compatible blockchain**, mirroring the simplicity and virality of the original **Nad.fun** on Solana. This version is built natively for **Monad's EVM-compatible testnet**, with full support for **Uniswap liquidity migration**, enabling instant tradability in the broader Ethereum ecosystem.
 
 ## ✨ Key Features
 
@@ -24,7 +24,7 @@ The **Pump.fun Monad Smart Contract** brings the power of viral, one-click token
 
 1. **Token Launch**
    - A creator calls `launchToken` with the desired name and symbol.
-   - The factory deploys a dedicated `PumpToken`, mints an initial supply to the creator, and seeds the bonding curve with predefined virtual reserves.
+   - The factory deploys a dedicated `NadToken`, mints an initial supply to the creator, and seeds the bonding curve with predefined virtual reserves.
    - Any ETH sent alongside the launch call executes the first buy: the factory takes the protocol fee, updates the bonding-curve reserves, and mints the appropriate token amount back to the creator.
 
 2. **Secondary Buys (External Integrations)**
@@ -53,4 +53,4 @@ The **Pump.fun Monad Smart Contract** brings the power of viral, one-click token
 
 ## 🍵 Tip
 
-### If you are interested in my projects, please [🔗fork](https://github.com/enlomy/pumpfun-monad-smart-contract/fork) or give me ⭐star
+### If you are interested in my projects, please [🔗fork](https://github.com/enlomy/nadfun-smart-contract/fork) or give me ⭐star
